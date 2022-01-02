@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/stackhub-membership-portal/static/css/main.c5f77c05.css",
+    "main.js": "/stackhub-membership-portal/static/js/main.f64179f6.js",
+    "static/js/787.2cf52ffd.chunk.js": "/stackhub-membership-portal/static/js/787.2cf52ffd.chunk.js",
+    "static/media/5892437 1.png": "/stackhub-membership-portal/static/media/5892437 1.bdf25fa7c99fb4278e71.png",
+    "index.html": "/stackhub-membership-portal/index.html",
+    "main.c5f77c05.css.map": "/stackhub-membership-portal/static/css/main.c5f77c05.css.map",
+    "main.f64179f6.js.map": "/stackhub-membership-portal/static/js/main.f64179f6.js.map",
+    "787.2cf52ffd.chunk.js.map": "/stackhub-membership-portal/static/js/787.2cf52ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5f77c05.css",
+    "static/js/main.f64179f6.js"
+  ]
+}
