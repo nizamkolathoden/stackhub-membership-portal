@@ -1,0 +1,88 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 100px;
+  background: no-repeat url("./Asset/5892437\ 1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  padding: 20px;
+}
+.logo_icon {
+  height: 100%;
+  width: 100%;
+}
+.hero_text {
+  margin: 5px 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 30px;
+  color: rgba(1, 22, 39, 0.8);
+}
+.hero_title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.125rem;
+  line-height: 75px;
+  color: rgba(1, 22, 39, 0.8);
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(1, 22, 39, 0.8);
+}
+span {
+  padding-left: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+@media (max-width: 650px) {
+  .social {
+    width: 0;
+  }
+  .instagram,
+  .github,
+  .twitter {
+    margin: 0 10px 0 10px;
+  }
+  span {
+    display: none;
+  }
+}
+@media (max-width: 380px) {
+  .hero_title {
+    font-size: 2.125rem;
+  }
+  .hero_text {
+    width: 50%;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
